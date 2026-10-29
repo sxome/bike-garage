@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: pro
+
+server:
+  port: 8080
+
+logging:
+  level:
+    es.tuempresa.bikegarage: INFO
